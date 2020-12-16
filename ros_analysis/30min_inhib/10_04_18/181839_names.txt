@@ -1,0 +1,8 @@
+pta+pta
+dw+pta
+59+pta
+59+dw
+1297+pta
+1297+dw
+20+pta
+20+dw

@@ -1,0 +1,15 @@
+data1="antag_1nM_10uM_10-18-19-133346_pa_pa20_1584_2008_2011_2001_2009_1410.txt"
+data2="antag_1nM_10uM_10-18-19-145506_pa_pa20_1186_5014_5015_5013_5008_5009.txt"
+data3="antag_1nM_10uM_10-18-19-182440_pa_pa20_2004_1329_1633_2001_1665_1857.txt"
+data4="antag_1nm_10uM_10-18-19-170521_pa_pa20_1809_1291_2007_1949_2003_2002.txt"
+data5="antag_1nM_10uM_10-31-19-161920_pa_pa20_2009_1410_1186_5014_1949_2004.txt"
+
+perl /Users/nicholascolaianni/Documents/dangl_lab/nat_variants_proj/clark_matlab_code/clark_runner.pl -o /Users/nicholascolaianni/Documents/dangl_lab/nat_variants_proj/ros_analysis/antag_1nM_10uM_10_18_19/ -r $data1 -n 133346 -s 133346_names.txt -tr -pn 1
+
+perl /Users/nicholascolaianni/Documents/dangl_lab/nat_variants_proj/clark_matlab_code/clark_runner.pl -o /Users/nicholascolaianni/Documents/dangl_lab/nat_variants_proj/ros_analysis/antag_1nM_10uM_10_18_19/ -r $data2 -n 145506 -s 145506_names.txt -tr -pn 1
+
+perl /Users/nicholascolaianni/Documents/dangl_lab/nat_variants_proj/clark_matlab_code/clark_runner.pl -o /Users/nicholascolaianni/Documents/dangl_lab/nat_variants_proj/ros_analysis/antag_1nM_10uM_10_18_19/ -r $data3 -n 182440 -s 182440_names.txt -tr -pn 1
+
+perl /Users/nicholascolaianni/Documents/dangl_lab/nat_variants_proj/clark_matlab_code/clark_runner.pl -o /Users/nicholascolaianni/Documents/dangl_lab/nat_variants_proj/ros_analysis/antag_1nM_10uM_10_18_19/ -r $data4 -n 170521 -s 170521_names.txt -tr -pn 1
+
+perl /Users/nicholascolaianni/Documents/dangl_lab/nat_variants_proj/clark_matlab_code/clark_runner.pl -o /Users/nicholascolaianni/Documents/dangl_lab/nat_variants_proj/ros_analysis/antag_1nM_10uM_10_18_19/ -r $data5 -n 161920 -s 161920_names.txt -tr -pn 1

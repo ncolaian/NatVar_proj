@@ -1,0 +1,3 @@
+data1="data_20_inhib_09-13-18-130326_5nm_pta_da_1nm_3nm_5nm_8nm_10nm_20nm.txt"
+
+perl /Users/nicholascolaianni/Documents/dangl_lab/clark_matlab_code/clark_runner.pl -o /Users/nicholascolaianni/Documents/dangl_lab/ros_analysis/inhib/inhib_ladder_20/ -r $data1 -n 130326 -s 130326_names.txt -tr -pn 1

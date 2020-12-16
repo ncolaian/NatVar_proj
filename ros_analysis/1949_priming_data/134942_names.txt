@@ -1,0 +1,8 @@
+Pta_5nM
+1949_5nM+Pta_5nM
+1949_50nM+Pta_5nM
+1949_500nM+Pta_5nM
+1949_5uM+Pta_5nM
+1949_5uM
+fls2_1949_5uM+Pta_5nM
+1949_1uM+Pta_5nM

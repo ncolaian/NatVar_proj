@@ -1,0 +1,4 @@
+data1="antagonist_03-20-19-132356_0-0_10-0_10-10_10-50_10-100_3-30bad_3-0.txt"
+
+perl /Users/nicholascolaianni/Documents/dangl_lab/clark_matlab_code/clark_runner.pl -o /Users/nicholascolaianni/Documents/dangl_lab/ros_analysis/antagonist_3_20_19 -r $data1 -n 132356 -s 132356_names.txt -tr -pn 1
+
