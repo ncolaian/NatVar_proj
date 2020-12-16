@@ -1,0 +1,5 @@
+This directory holds all of the SGI data and analyses. The creation of the final ROS and SGI combined figures are also in this directory.
+
+The script that holds all of the SGI analyses is: z_score_sgi_fulldata.R
+
+This analyzes all of the SGI data from Col-0 and fls2/efr
