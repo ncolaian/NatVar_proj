@@ -16,6 +16,8 @@ For the analysis of the AnP-flg22 1949, the code is in the 1949_priming_data dir
 
 The analysis of of the elf18 priming data is in the elf18_prim directory and is named: analyze_elf18_priming_data.R 
 
+**** For the analysis of the ralstonia ROS data, the code is in the _ directory and is named: *******
+
 for the analysis of the OTU5 ROS burst, the code and data is in the otu_5_ros directory and the code is named: OTU5_ros_analysis.R
 
 For the analysis of the bak mutant ROS burst, the code is in the bak_ros_12_10_19_outliers directory and the code is named: bak_ploting_final_figures.R
