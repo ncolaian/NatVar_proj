@@ -27,6 +27,7 @@ combined <- combined[combined$Name != "Pta_100nM",]
 combined$Name[combined$Name == "1949_1uM_fls2"] <- "fls2_1949_1uM_Pta5nM"
 combined$Name <- factor(combined$Name, levels = c("1949_1uM", "fls2_1949_1uM_Pta5nM", "Pta_5nM", "1949_5nM_Pta5nM", "1949_10nM_Pta5nM", "1949_100nM_Pta5nM", "1949_1uM_Pta5nM", "1949_5uM_Pta5nM"))
 
+#This is figure S3c
 ggplot(combined, aes(x=Time/60, y=measurement, color=Name))+
   geom_line(size=1.5)+
   geom_errorbar(aes(ymin=measurement-se, ymax=measurement+se))+
@@ -103,6 +104,7 @@ ggplot(combined, aes(x=Time/60, y=measurement, color=Name))+
   scale_x_continuous(breaks=c(0,6,13,16,26,30,40,50,60))
 
 ###dat3
+# This is figure S3d
 late <- read.csv("/Users/nicholascolaianni/Documents/dangl_lab/nat_variants_proj/ros_analysis/1949_priming_data/201502.summary_info.csv",stringsAsFactors = F)
 #later timepoint
 early <- read.csv("/Users/nicholascolaianni/Documents/dangl_lab/nat_variants_proj/ros_analysis/1949_priming_data/191923.summary_info.csv" ,stringsAsFactors = F)
