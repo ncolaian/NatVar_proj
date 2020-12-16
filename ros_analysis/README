@@ -1,0 +1,21 @@
+This folder contains all of the raw ROS files used in the ROS analysis prresented in the paper. It also includes the code used for analysis of the ROS data.
+
+Within each folder that contains the raw ROS data you will find a couple of files associated with each run including the raw data from the machine, formatted data for data analysis, and some figures that provide some insight into each experiment. Each raw datasheet was placed into the run_clark.sh script that ran a pipeline to format the data, provide datafiles for future analysis, and some summary figures. The code it calls for is in this directory as well ( pipeline - clark_runner.pl and data_analysis and summary figures - create_auc_graphs_and_comp.R )
+
+The path to the files used in all code is found in the code.
+
+For the analysis of the 100nM dataset, the code is in this directory and is named: combine_all_ros_results.R
+
+For the analysis of the fls2/efr data, the code is in this directory and is named: fe_auc_graph_code.R
+
+For the analysis of the 10nM data of the active flg22 variants identified, the code is in this directory and is named: 10nm_auc_graph_code.R
+
+For the analysis of the antagonist ROS burst, the code is in the antag_12_16_19 directory and is named: graph_antag_results_rep1.R
+
+For the analysis of the AnP-flg22 1949, the code is in the 1949_priming_data directory and is named: graph_priming_ros_code.R
+
+The analysis of of the elf18 priming data is in the elf18_prim directory and is named: analyze_elf18_priming_data.R 
+
+for the analysis of the OTU5 ROS burst, the code and data is in the otu_5_ros directory and the code is named: OTU5_ros_analysis.R
+
+For the analysis of the bak mutant ROS burst, the code is in the bak_ros_12_10_19_outliers directory and the code is named: bak_ploting_final_figures.R
