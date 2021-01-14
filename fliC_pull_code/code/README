@@ -1,0 +1,5 @@
+EXAMPLE HMMSCAN COMMAND
+hmmscan -o /nas/longleaf/home/ncolaian/scratch/mamp_pa/hmm_profile_fliC_pt2/hmm_out/2643221822.out --domtblout /nas/longleaf/home/ncolaian/scratch/mamp_pa/hmm_profile_fliC_pt2/domtbl/2643221822.hmmscan -E 1e-7 --domE 1e-7 -Z 5000 /nas/longleaf/home/ncolaian/scratch/mamp_pa/hmm_profile_fliC_pt2/flic.hmm 2643221822/2643221822.nnl.faa
+
+EXAMPLE PSIBLAST COMMAND
+psiblast -query prot_flag_full.faa -db database/combined_3800 -out psi_blastres_flag.txt -evalue 0.00000001 -outfmt '6 qseqid sseqid slen sstart send length pident' -num_alignments 4000 -num_iterations 50 -out_pssm flag.pssm
