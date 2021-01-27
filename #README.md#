@@ -1,0 +1,15 @@
+# NatVar_proj
+This holds scripts and data associated with the manuscript describing natural flg22 variation
+
+
+The ROS folder contains all the data and code used to make all ROS burst figures in the publication.
+
+The SGI folder contains all the sgi data and analysis code. It also contains the combined ROS and SGI figures for the Ralstonia peptides and the rest of the peptides that were screened.
+
+16S_analysis folder contains all the data and code used to analyze the flg22 repertoire in Synthetic commensal communities. It also contains code that compares our database to natural bacterial diversity present natural commensal communities.
+
+ELISA folder contains the code and data used to create the figures associated with the antagonistic ELISA experiments
+
+cl21_data contains raw root length measurements and code used to analyze the data
+
+The confocal directory holds all of the total photon counts for transgenic plants exposed to flg22
