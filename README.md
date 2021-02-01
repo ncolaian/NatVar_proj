@@ -33,4 +33,4 @@ The cl21_exps directory contains the data and code used to analyze the effect of
 
 The ELISA directory contains the data and statistics performed on the ELISA absorbance readings displayed in the manuscript
 
-
+The 16S_analysis directory contains the data and code used to estimate the relative abundance of natural Arabidopsis communities represented by the 185-member syncom (Finkel et al., 2019) and the Arabidopsis database.
