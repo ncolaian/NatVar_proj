@@ -19,7 +19,7 @@ The SGI folder contains all the sgi data and analysis code. It also contains the
 
 The FliC_pull_code contains scripts, files, and representative commands used to identify fliC and flg22 variants. These scripts and examples could be used to identify flg22 variants in any genome/database of interest. It also contains the newick file used to create the FliC phylogenies displayed in the manuscript.
 
-The supp_dir contains all the supplemental files updated to the manuscript.
+The supp_dir contains all the supplemental files uploaded to the manuscript.
 
 The fliC_flg22_functionality directory contains the raw data and scripts used to functionally annotate the flg22 variants found in the synthetic communities reported by Finkel et al., 2020 ( https://doi.org/10.1038/s41586-020-2778-7 )
 
