@@ -17,7 +17,7 @@ The ROS folder contains all the data and code used to make all ROS burst figures
 
 The SGI folder contains all the sgi data and analysis code. It also contains the combined ROS and SGI figures for the Ralstonia peptides and the rest of the peptides that were screened.
 
-The FliC_pull_code contains scripts, files, and representative commands used to identify fliC and flg22 variants. These scripts and examples could be used to identify flg22 variants in any genome/database of interest
+The FliC_pull_code contains scripts, files, and representative commands used to identify fliC and flg22 variants. These scripts and examples could be used to identify flg22 variants in any genome/database of interest. It also contains the newick file used to create the FliC phylogenies displayed in the manuscript.
 
 The supp_dir contains all the supplemental files updated to the manuscript.
 
