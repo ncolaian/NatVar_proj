@@ -29,7 +29,7 @@ The flg22_phylo directory contains metadata and newick file used to create figur
 
 The confocal_data directory contains the confocal data and script used to create the figures associated with connfocal analysis (Figures - )
 
-The cl21_exps directory contains the data and code used to analyze the effect of fliC replacement on motility and root growth inhibition.
+The cl21_exps directory contains the data and code used to analyze the effect of fliC replacement on motility and root growth inhibition. You can find the raw pictures for the experiments at https://drive.google.com/drive/folders/1rZy0SbH_8ic5zQFCbjCTZ3OciASCb58C?usp=sharing
 
 The ELISA directory contains the data and statistics performed on the ELISA absorbance readings displayed in the manuscript
 
